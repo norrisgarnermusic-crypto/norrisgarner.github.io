@@ -1,136 +1,141 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Norris Garner | Gospel Music Ministry</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: "Poppins", sans-serif;
-    }
-
-    body {
-      background: #f8f8f8;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header {
-      background: linear-gradient(135deg, #1a1a1a, #3b3b3b);
-      color: white;
-      text-align: center;
-      padding: 80px 20px;
-    }
-
-    header h1 {
-      font-size: 2.8em;
-      margin-bottom: 10px;
-      letter-spacing: 1px;
-    }
-
-    header p {
-      font-size: 1.2em;
-      color: #ddd;
-    }
-
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    .about {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
-      padding: 40px;
-    }
-
-    .about h2 {
-      color: #333;
-      margin-bottom: 20px;
-    }
-
-    .music {
-      text-align: center;
-      margin-top: 40px;
-    }
-
-    .music h2 {
-      margin-bottom: 20px;
-    }
-
-    iframe {
-      border-radius: 12px;
-      width: 100%;
-      max-width: 600px;
-      height: 380px;
-    }
-
-    .contact {
-      background: #222;
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
-
-    .contact h2 {
-      margin-bottom: 20px;
-    }
-
-    .contact a {
-      color: #ffd700;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    footer {
-      background: #111;
-      color: #ccc;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-    }
-  </style>
-</head>
-<body>
-
-  <header>
-    <h1>Norris Garner</h1>
-    <p>Gospel Music Minister & Songwriter</p>
-  </header>
-
-  <section class="about">
-    <h2>Ministry Objectives</h2>
-    <p>
-      It is my passion to lead with a servant’s heart in spreading the gospel of Christ through music;
-      committing my life and gifts to advance the kingdom of God; collaborating with church officials to
-      coordinate music that aligns with the worship and events; and equipping people across age generations
-      and cultural differences to worship and praise God with every breath.
-    </p>
-  </section>
-
-  <section class="music">
-    <h2>Listen on Spotify</h2>
-    <iframe src="https://open.spotify.com/embed/artist/7kDf1GtXbDkIyRx99xxb6X?utm_source=generator" 
-      frameBorder="0" 
-      allowfullscreen="" 
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-      loading="lazy"></iframe>
-  </section>
-
-  <section class="contact">
-    <h2>Contact & Booking</h2>
-    <p>For ministry invitations or collaborations, please reach out via email:</p>
-    <p><a href="mailto:info@norrisgarnermusic.com">info@norrisgarnermusic.com</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Norris Garner Music Ministry | All Rights Reserved</p>
-  </footer>
-
-</body>
-</html>
+1| <!DOCTYPE html>
+2| <html lang="en">
+3| <head>
+4|   <meta charset="UTF-8" />
+5|   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+6|   <title>Norris Garner | Gospel Music Ministry</title>
+7|   <style>
+8|     * {
+9|       box-sizing: border-box;
+10|       margin: 0;
+11|       padding: 0;
+12|       font-family: "Poppins", sans-serif;
+13|     }
+14| 
+15|     body {
+16|       background: #f8f8f8;
+17|       color: #333;
+18|       line-height: 1.6;
+19|       font-size: 18px; /* Updated font size */
+20|     }
+21| 
+22|     header {
+23|       background: linear-gradient(135deg, #1a1a1a, #3b3b3b);
+24|       color: white;
+25|       text-align: center;
+26|       padding: 80px 20px;
+27|     }
+28| 
+29|     header h1 {
+30|       font-size: 3em; /* Increased header font size */
+31|       margin-bottom: 10px;
+32|       letter-spacing: 1px;
+33|     }
+34| 
+35|     header p {
+36|       font-size: 1.3em; /* Slightly increased paragraph size */
+37|       color: #ddd;
+38|     }
+39| 
+40|     section {
+41|       padding: 60px 20px;
+42|       max-width: 1000px;
+43|       margin: auto;
+44|     }
+45| 
+46|     .about {
+47|       background: white;
+48|       border-radius: 8px;
+49|       box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+50|       padding: 40px;
+51|     }
+52| 
+53|     .about h2 {
+54|       color: #333;
+55|       margin-bottom: 20px;
+56|       font-size: 2em; /* Updated section title size */
+57|     }
+58| 
+59|     .music {
+60|       text-align: center;
+61|       margin-top: 40px;
+62|     }
+63| 
+64|     .music h2 {
+65|       margin-bottom: 20px;
+66|       font-size: 2em; /* Updated subtitle size */
+67|     }
+68| 
+69|     iframe {
+70|       border-radius: 12px;
+71|       width: 100%;
+72|       max-width: 600px;
+73|       height: 380px;
+74|     }
+75| 
+76|     .contact {
+77|       background: #222;
+78|       color: white;
+79|       padding: 60px 20px;
+80|       text-align: center;
+81|     }
+82| 
+83|     .contact h2 {
+84|       margin-bottom: 20px;
+85|       font-size: 2em; /* Updated subtitle size */
+86|     }
+87| 
+88|     .contact a {
+89|       color: #ffd700;
+90|       text-decoration: none;
+91|       font-weight: bold;
+92|       font-size: 1.1em; /* Slightly increased link size */
+93|     }
+94| 
+95|     footer {
+96|       background: #111;
+97|       color: #ccc;
+98|       text-align: center;
+99|       padding: 20px;
+100|       font-size: 1em; /* Updated footer text size */
+101|     }
+102|   </style>
+103| </head>
+104| <body>
+105| 
+106|   <header>
+107|     <h1>Norris Garner</h1>
+108|     <p>Gospel Music Minister & Songwriter</p>
+109|   </header>
+110| 
+111|   <section class="about">
+112|     <h2>Ministry Objectives</h2>
+113|     <p>
+114|       It is my passion to lead with a servant’s heart in spreading the gospel of Christ through music;
+115|       committing my life and gifts to advance the kingdom of God; collaborating with church officials to
+116|       coordinate music that aligns with the worship and events; and equipping people across age generations
+117|       and cultural differences to worship and praise God with every breath.
+118|     </p>
+119|   </section>
+120| 
+121|   <section class="music">
+122|     <h2>Listen on Spotify</h2>
+123|     <iframe src="https://open.spotify.com/embed/artist/7kDf1GtXbDkIyRx99xxb6X?utm_source=generator" 
+124|       frameBorder="0" 
+125|       allowfullscreen="" 
+126|       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+127|       loading="lazy"></iframe>
+128|   </section>
+129| 
+130|   <section class="contact">
+131|     <h2>Contact & Booking</h2>
+132|     <p>For ministry invitations or collaborations, please reach out via email:</p>
+133|     <p><a href="mailto:info@norrisgarnermusic.com">info@norrisgarnermusic.com</a></p>
+134|   </section>
+135| 
+136|   <footer>
+137|     <p>© 2025 Norris Garner Music Ministry | All Rights Reserved</p>
+138|   </footer>
+139| 
+140| </body>
+141| </html>
